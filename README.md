@@ -24,6 +24,8 @@ O jogo desenha o rato e o queijo com `pygame.draw`. Para usar imagens próprias,
 
 ## Conceitos usados
 
+O código parte dos exemplos `car.py` (imagem controlada pelo teclado) e `colision.py` (detecção de colisão) vistos em aula.
+
 - Laço do jogo: eventos → atualizar estado → renderizar
 - `pygame.key.get_pressed()` para o teclado
 - `Surface.get_rect()`, `Rect.move_ip()` e `Rect.clamp_ip()` para mover o rato
